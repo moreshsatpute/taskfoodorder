@@ -1,0 +1,18 @@
+// Define color variables
+$primary-color: #F05A26;
+$primary-background: #FEF3F0;
+$background-color: #0707c0;
+$text-color: #403C3C;
+$gray-color: #9E9EA8;
+
+
+$font-family: 'Manrope', sans-serif;
+
+
+
+.border-primary{
+  border-color: $primary-color;
+  background-color: $primary-background;
+  color: $primary-color;
+}
+

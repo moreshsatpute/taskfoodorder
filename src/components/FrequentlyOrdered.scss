@@ -1,0 +1,25 @@
+/* FrequentlyOrdered.scss */
+
+$primary-background: #FEF3F0;
+.overflow-x-auto {
+    overflow-x: auto;
+  
+    /* Custom scrollbar styles */
+    &::-webkit-scrollbar {
+      height: 6px; /* Make the scrollbar smaller */
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: transparent; /* Transparent track */
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color:$primary-background; /* Black color for the scrollbar thumb */
+      border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+    }
+  
+    &::-webkit-scrollbar-button {
+      display: none; /* Hide the arrows */
+    }
+  }
+  
